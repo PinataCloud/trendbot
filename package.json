@@ -1,0 +1,31 @@
+{
+  "name": "trendbot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "version": "1.0.0",
+  "description": "To install dependencies:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "canvas": "^3.1.0",
+    "dotenv": "^16.5.0",
+    "form-data": "^4.0.2",
+    "node-cron": "^4.0.5",
+    "openai": "^4.98.0",
+    "pinata": "^2.3.0",
+    "viem": "^2.29.2",
+    "x402-fetch": "^0.3.3"
+  }
+}
